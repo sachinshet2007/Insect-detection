@@ -28,7 +28,7 @@ cloudinary.config(
 )
 
 # ---------------- FLASK SERVER ENDPOINT ----------------
-ENDPOINT = "http://10.88.90.99:5000/data/ingest"
+ENDPOINT = "http://<YOUR_SERVER_IP>:5000/data/ingest"
 
 # ---------------- GPIO SETUP ----------------
 GPIO.setmode(GPIO.BCM)
